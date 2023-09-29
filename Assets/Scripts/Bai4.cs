@@ -23,6 +23,7 @@ public class Bai4 : MonoBehaviour
         ChangeMovePoint();
 
         StartCoroutine(Curve(startPoint, endPoint));
+        
     }
 
     private void ChangeMovePoint()
